@@ -34,7 +34,7 @@ public class Book {
     public void setIsbn(String isbn) {
         this.isbn = isbn;
     }
-    public String getYearPublished() { return isbn; }
+    public String getYearPublished() { return yearPublished; }
     public void setYearPublished(int yearPublished) { this.yearPublished = yearPublished; }
     //Check availability of book for borrowing
     public boolean isBookAvailable() {
