@@ -5,11 +5,11 @@ public class Book {
     //Attributes of book
     private String title;
     private String author;
-    private String isbn;
+    private int isbn;
     private int yearPublished;
     boolean isBookAvailable = true;//Set books to be available by default
     //Constructor to construct book object
-    public Book(String title, String author, String isbn, int yearPublished) {
+    public Book(String title, String author, int isbn) {
         this.title = title;
         this.author = author;
         this.isbn = isbn;
@@ -28,7 +28,7 @@ public class Book {
     public void setAuthor(String author) {
         this.author = author;
     }
-    public String getIsbn() {
+    public int getIsbn() {
         return isbn;
     }
     public void setIsbn(String isbn) {
